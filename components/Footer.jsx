@@ -43,16 +43,16 @@ export default function Footer() {
         <div>
           <h6 className="font-semibold mb-3 text-lg">Follow Us</h6>
           <div className="flex gap-3">
-            <a href="https://x.com" target="_blank" rel="noreferrer" className="btn btn-circle btn-outline btn-sm" aria-label="X">
+            <a href="https://x.com" target="_blank" rel="noreferrer" className="btn btn-circle btn-sm bg-transparent text-white border-white/40 hover:bg-primary hover:border-primary" aria-label="X">
               <FaXTwitter />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer" className="btn btn-circle btn-outline btn-sm" aria-label="Facebook">
+            <a href="https://facebook.com" target="_blank" rel="noreferrer" className="btn btn-circle btn-sm bg-transparent text-white border-white/40 hover:bg-primary hover:border-primary" aria-label="Facebook">
               <FaFacebookF />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="btn btn-circle btn-outline btn-sm" aria-label="LinkedIn">
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="btn btn-circle btn-sm bg-transparent text-white border-white/40 hover:bg-primary hover:border-primary" aria-label="LinkedIn">
               <FaLinkedinIn />
             </a>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="btn btn-circle btn-outline btn-sm" aria-label="GitHub">
+            <a href="https://github.com" target="_blank" rel="noreferrer" className="btn btn-circle btn-sm bg-transparent text-white border-white/40 hover:bg-primary hover:border-primary" aria-label="GitHub">
               <FaGithub />
             </a>
           </div>
