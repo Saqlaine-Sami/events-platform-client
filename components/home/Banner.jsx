@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <section
       className="relative bg-neutral bg-cover bg-center"
-      style={{ backgroundImage: "url('/banner.jpg')" }}
+      style={{ backgroundImage: "url('/hero-banner.jpg')" }}
     >
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative max-w-7xl mx-auto px-4 py-24 md:py-36 text-center text-white">
