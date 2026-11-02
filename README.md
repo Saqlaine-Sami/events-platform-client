@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HelpingHands BD — Social Development Events Platform
 
-## Getting Started
+🌐 **Live Site:** https://your-client-site.vercel.app
 
-First, run the development server:
+একটি কমিউনিটি-ভিত্তিক প্ল্যাটফর্ম, যেখানে ইউজাররা তাদের এলাকার সমাজসেবামূলক ইভেন্ট (যেমন শীতবস্ত্র বিতরণ, বৃক্ষরোপণ, রক্তদান) তৈরি করতে, জয়েন করতে এবং ট্র্যাক করতে পারে।
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Email/Password এবং GitHub দিয়ে Login ও Register (BetterAuth + MongoDB Adapter)
+- লগইন করা ইউজার নতুন ইভেন্ট তৈরি করতে পারে; অতীতের তারিখ দেওয়া যায় না
+- Upcoming Events পেজে শুধু আসন্ন ইভেন্ট দেখায়, তারিখ পার হওয়া ইভেন্ট দেখায় না
+- এক ক্লিকে ইভেন্টে Join করা এবং Joined Events পেজে তারিখ অনুযায়ী সাজানো তালিকা দেখা
+- Manage Events পেজ থেকে নিজের ইভেন্ট Update ও Delete; শুধু ইভেন্টের মালিক এটা করতে পারে
+- JWT দিয়ে সুরক্ষিত API এবং Private Route (reload করলেও লগইন থাকে)
+- Light/Dark theme toggle, পুরো সাইট একসাথে বদলায়
+- Loading skeleton এবং Profile view/update (নাম ও ছবি)
+- মোবাইল, ট্যাবলেট ও ডেস্কটপ — সব ডিভাইসের জন্য Responsive ডিজাইন
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend:** Next.js (App Router), Tailwind CSS, DaisyUI
+- **Authentication:** BetterAuth, MongoDB Adapter, JWT
+- **Backend:** Express.js, MongoDB
 
-## Learn More
+## Run Locally
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. `npm install`
+2. `.env.local` ফাইল বানিয়ে প্রয়োজনীয় environment variable দাও
+3. `npm run dev`
