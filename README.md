@@ -1,6 +1,6 @@
 # HelpingHands BD — Social Development Events Platform
 
-🌐 **Live Site:** https://your-client-site.vercel.app
+🌐 **Live Site:** https://events-platform-client-alpha.vercel.app
 
 একটি কমিউনিটি-ভিত্তিক প্ল্যাটফর্ম, যেখানে ইউজাররা তাদের এলাকার সমাজসেবামূলক ইভেন্ট (যেমন শীতবস্ত্র বিতরণ, বৃক্ষরোপণ, রক্তদান) তৈরি করতে, জয়েন করতে এবং ট্র্যাক করতে পারে।
 
